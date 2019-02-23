@@ -1,0 +1,10 @@
+colours:
+  diamonds:
+    fg: blue
+  hearts:
+    fg: red
+  clubs:
+    fg: black
+    bg: white
+  spades:
+    fg: green

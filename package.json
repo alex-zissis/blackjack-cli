@@ -1,0 +1,25 @@
+{
+  "name": "blackjack",
+  "version": "0.0.1",
+  "description": "A blackjack game run entirely in your shell",
+  "main": "logic.js",
+  "preferGlobal": true,
+  "bin": "./blackjack.js",
+  "dependencies": {
+    "commander": "2.19.0",
+    "inquirer": "6.2.1",
+    "yaml": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-plugin-more-naming-conventions-leading-underscore": "^1.0.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint */*.js"
+  },
+  "author": "alex-zissis",
+  "license": "ISC"
+}
